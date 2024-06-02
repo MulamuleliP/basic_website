@@ -1,103 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Webpage - Flexbox</title>
+    <title>my-webpage</title>
     <link rel="stylesheet" href="my-webpage.css">
 </head>
+<style>
+    body {
+        background-color: #84a98c;
+    }
+</style>
+
 <body>
-   <header>
-    <h1>Mulamuleli Patience Magwedze</h1>
-   <img src="Pictures/TableMountain.jpg" alt="Mulamuleli Patience Magwedze with Table Mountain in the background">
-</header>  
 
-
-<section class="city">
-    <h2>Maputo</h2>
-    <div class="flex-container">
-        <img src="Pictures/Maputo.jpg" alt="Maputo">
-        <p>I would love to visit Maputo because I know they offer an unforgettable cultural experience and to see it's beauty</p>
+    <div>
+        <h1 style="background-color:#495057;;">Mulamuleli Patience Magwedze</h1>
+        <div><img src="Pictures\TableMountain.jpg" width="250" height="250" class="lring"></div>
     </div>
-</section>
 
-<section class="language">
-    <h2>Korean</h2>
-    <p>I am a lover of Korean shows, so learning it will be very interesting and it means that I won't have to depend on subtitles while watching a series or movie in order for me to understand what is being said.</p>
-    <table style="border-collapse: collapse; width: 50%;">
-        <tr>
-            <th style="border: 1px solid black; padding: 8px;">English</th>
-            <th style="border: 1px solid black; padding: 8px;">Korean</th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">Hello</td>
-            <td style="border: 1px solid black; padding: 8px;">annyeonghaseyo</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">Thank you</td>
-            <td style="border: 1px solid black; padding: 8px;">gamsahamnida</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">I'm sorry</td>
-            <td style="border: 1px solid black; padding: 8px;">mianhamnida</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">How have you been?</td>
-            <td style="border: 1px solid black; padding: 8px;">jal jinaesseoyo?</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">Have a good day</td>
-            <td style="border: 1px solid black; padding: 8px;">joeun haru doeseyo</td>
-        </tr>
-    </table>
-</section>
+    <div>
+        <h2 style="background-color:#495057;">Maputo</h2>
+        <div class="city"></div>
+        <div><img src="Pictures\Maputo.jpg" width="150" height="150"></div>
+        <p>I would love to visit Maputo because I know they offer an unforgettable cultural experience
+            and to see
+            it's beauty. The stunning Portuguese colonial architecture, like the Gustav Eiffel-designed railway
+            station, sets a picturesque backdrop. Exploring the lively Central Market and Feima will immerse you in
+            the local scene, offering fresh produce, spices, and unique crafts. Maputo’s seafood, especially the
+            prawns, is renowned and the fusion of traditional Mozambican and Portuguese flavors is a culinary
+            delight.</p>
+    </div>
 
 
-<section class="modules">
-    <h2>My Favourite Modules</h2>
-    <p>Accenture 4IR WRP at UJ </p>
-    <div class="flex-container">
-        <div>
-            <img src="Pictures/4IR Bootcamp.jpg" alt="Module 1">
-            <p>4IR Technologies Bootcamp</p>
-        </div>
-        <div>
-            <img src="Pictures/full-stack-web-development.jpg" alt="Module 2">
-            <p>Full Stack Web Development for 4IR</p>
-        </div>
-        <div>
-            <img src="Pictures/Engineering.jpg" alt="Module 3">
-            <p>Engineering Business Systems for 4IR</p>
+    <h2 style="background-color: #495057;">Korean</h2>
+    <div class="foreign">
+        <p>I am a lover of Korean shows, so learning it will be very interesting and it means that I won't have to
+            depend on subtitles while watching a series or movie in order for me to understand what is being said.</p>
+        </p>
+        <div class="col-12">
+            <table border="1">
+                <tr class="t1">
+                    <th>Korean</th>
+                    <th>English translation</th>
+                </tr>
+
+                <tr class="t2">
+                    <th>annyeonghaseyo</th>
+                    <th>Hello</th>
+                </tr>
+
+                <tr class="t2">
+                    <th>gamsahamnida</th>
+                    <th>Thank you</th>
+                </tr>
+
+
+                <tr class="t2">
+                    <th>mianhamnida</th>
+                    <th>I'm sorry</th>
+                </tr>
+
+                <tr class="t2">
+                    <th>jal jinaesseoyo?</th>
+                    <th>How have you been?</th>
+                </tr>
+
+                <tr class="t2">
+                    <th>joeun haru doeseyo</th>
+                    <th>Have a good day</th>
+                </tr>
+
+
+            </table>
         </div>
     </div>
-</section>
+
+    <div>
+
+        <h2 style="background-color: #495057;">Accenture 4IR WRP at UJ</h2>
+        <div class="subject">
+            <div class="ebs">
+                <h3>Engineering Business Systems</h3>
+                <img src="Pictures\Engineering.jpg" width=300>
+            </div>
+
+            <div class="tbc">
+                <h3>4IR Technologies Bootcamp</h3>
+                <img src="Pictures\4IR Bootcamp.jpg" width=300>
+            </div>
+
+            <div class="fswd">
+                <h3>Full Stack Web developmnent</h3>
+                <img src="Pictures\full-stack-web-development.jpg" width=300>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
 
 
-    <section class="historical-places">
-        <h2>Historical Places in Johannesburg</h2>
-        <div class="flex-container">
+        <h2 style="background-color: #495057;;">Historical places</h2>
+
+        <div class="history">
+
             <div>
-                <img src="Pictures/GoldReef.jpg" alt="Gold Reef City">
-                <p>It is a theme park built around an old gold mine, offering both entertainment and educational experiences about Johannesburg's gold rush era.</p>
-           <p>There's an underground mine, visitors can take an underground tour of the mine, descending 75 meters below the surface to see what life was like for the miners.</p>
-            <p>The park features reenactments and exhibits that showcase the vibrant and often perilous life during the gold rush, making it a fun yet informative destination.</p>
-        </div>
+                <h3>Gold Reef City</h3>
+
+                <div class="column">
+
+                    <p>It is a theme park built around an old gold mine, offering both entertainment and
+                        educational experiences about Johannesburg's gold rush era.</p>
+                    <p>There's an underground mine, visitors can take an underground tour of the mine,
+                        descending 75 meters below the surface to see what life was like for the miners.</p>
+                    <p>The park features reenactments and exhibits that showcase the vibrant and often
+                        perilous life during the gold rush, making it a fun yet informative destination.</p>
+
+                    <img src="Pictures\GoldReef.jpg" width="250" class="historyig">
+
+                </div>
+
+
+            </div>
+
             <div>
-                <img src="Pictures/MandelaHouse.jpg" alt="Mandela House">
-                <p>It is a former Residence of Nelson Mandela located in Soweto, Mandela House is the former home of Nelson Mandela, where he lived from 1946 to 1962 before his imprisonment.</p>
-            <p>The house has been preserved as a museum, showcasing Mandela's personal memorabilia and providing insights into his life and legacy.</p>
-        <p>In 1999, Mandela House was declared a National Heritage Site due to its historical significance and its role in South Africa's fight for freedom.
-            </p>
-        </div>
+                <h3>Mandela House</h3>
+                <div class="column">
+
+                    <p>It is a former Residence of Nelson Mandela located in
+                        Soweto, Mandela House is the former home of Nelson Mandela, where he lived from 1946
+                        to 1962 before his imprisonment.</p>
+                    <p>The house has been preserved as a museum, showcasing
+                        Mandela's personal memorabilia and providing insights into his life and legacy.</p>
+                    <p>In 1999, Mandela House was declared a National Heritage
+                        Site due to its historical significance and its role in South Africa's fight for
+                        freedom.
+                    </p>
+                    <img src="Pictures\MandelaHouse.jpg" width="250" class="historyig">
+                </div>
+
+            </div>
+
             <div>
-                <img src="Pictures/HectorMemorial.jpg" alt="Hector Pieterson Memorial and Museum">
-                <p>The museum features exhibits with photographs, oral histories, and personal testimonies that detail the events of the Soweto Uprising and its impact on the apartheid regime.
-                </p>
-                <p>The memorial and museum commemorate the events of June 16, 1976, when thousands of students protested against the imposition of Afrikaans as a medium of instruction, leading to a brutal crackdown by police</p>
-                
-                <p>The site is named after Hector Pieterson, a 12-year-old boy who was one of the first casualties of the uprising, and it symbolizes the role of youth in the struggle against apartheid.</p>
+                <h3>Hector Pieterson Memorial and Museum</h3>
+
+                <div class="column">
+
+                    <p>The museum features exhibits with photographs, oral histories, and personal
+                        testimonies that detail the events of the Soweto Uprising and its impact on the
+                        apartheid regime.
+                    </p>
+                    <p>The memorial and museum commemorate the events of June 16, 1976, when thousands of
+                        students protested against the imposition of Afrikaans as a medium of instruction,
+                        leading to a brutal crackdown by police</p>
+
+                    <p>The site is named after Hector Pieterson, a 12-year-old boy who was one of the first
+                        casualties of the uprising, and it symbolizes the role of youth in the struggle
+                        against apartheid.</p>
+                    <img src="Pictures\HectorMemorial.jpg" width="250" class="historyig">
+                </div>
+
+
             </div>
         </div>
-    </section>
+
+    </div>
+
+    </div>
+
+
+
 </body>
+
+
 </html>
